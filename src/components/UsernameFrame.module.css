@@ -1,0 +1,59 @@
+.card,
+.username {
+  position: relative;
+  z-index: 1;
+}
+.card {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-6xs);
+  background: linear-gradient(
+    109.46deg,
+    rgba(201, 201, 201, 0.4),
+    rgba(196, 196, 196, 0.05)
+  );
+  backdrop-filter: blur(60px);
+}
+.enterYourUsername {
+  width: 158px;
+  border: 0;
+  outline: 0;
+  font-weight: 300;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-mini);
+  background-color: transparent;
+  height: 18px;
+  position: relative;
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.cardParent,
+.usernameFrame {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.cardParent {
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-base) var(--padding-mini);
+  position: relative;
+}
+.usernameFrame {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-3xs);
+  gap: 5px 0;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}

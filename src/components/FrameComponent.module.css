@@ -1,0 +1,176 @@
+.card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xl);
+  background: linear-gradient(
+    109.46deg,
+    rgba(201, 201, 201, 0.4),
+    rgba(196, 196, 196, 0.05)
+  );
+  backdrop-filter: blur(60px);
+  mix-blend-mode: color;
+}
+.depthFrame,
+.login {
+  position: relative;
+  z-index: 1;
+}
+.login {
+  margin: 0;
+  width: 79px;
+  height: 39px;
+  font-size: var(--font-size-21xl);
+  font-weight: 400;
+  font-family: var(--font-iceland);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.depthFrame {
+  width: 110px;
+  height: 1px;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+}
+.welcomeOnboardWith {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 300;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.loginParent,
+.welcomeText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px 0;
+}
+.welcomeText {
+  height: 34px;
+}
+.loginParent {
+  padding: 0 var(--padding-3xs) var(--padding-xl);
+}
+.forgotPassword {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.forgotPassLink {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+  gap: 10px 0;
+}
+.card1,
+.login1 {
+  position: relative;
+}
+.card1 {
+  height: 50px;
+  width: 419px;
+  border-radius: var(--br-6xs);
+  background-color: var(--color-powderblue);
+  display: none;
+  max-width: 100%;
+}
+.login1 {
+  font-size: var(--font-size-mini);
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 2;
+}
+.welcomeFrame {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-base)
+    var(--padding-xl);
+  background-color: var(--color-powderblue);
+  align-self: stretch;
+  border-radius: var(--br-6xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.welcomeFrame:hover {
+  background-color: var(--color-cadetblue);
+}
+.newToLogo {
+  font-weight: 300;
+}
+.here,
+.newToLogo,
+.register {
+  font-family: var(--font-montserrat);
+}
+.here {
+  font-weight: 300;
+}
+.newToLogoContainer {
+  position: relative;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.cardParent,
+.loginButtonFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+  gap: 15px 0;
+  max-width: 100%;
+}
+.cardParent {
+  margin: 0;
+  padding: var(--padding-xl) var(--padding-xl) var(--padding-11xl);
+  position: relative;
+  gap: 30px 0;
+}
+@media screen and (max-width: 1050px) {
+  .login {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .cardParent {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .login {
+    font-size: var(--font-size-5xl);
+  }
+  .welcomeOnboardWith {
+    font-size: var(--font-size-base);
+  }
+}

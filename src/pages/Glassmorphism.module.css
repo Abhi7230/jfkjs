@@ -1,0 +1,59 @@
+.greenBlueModernPhotoNature,
+.image1Icon {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+}
+.image1Icon {
+  height: 813px;
+  width: 1294px;
+  display: none;
+}
+.greenBlueModernPhotoNature {
+  height: 628px;
+  width: 557px;
+  mix-blend-mode: color-dodge;
+}
+.glassmorphism,
+.glassmorphismInner {
+  display: flex;
+  justify-content: flex-start;
+}
+.glassmorphismInner {
+  width: 479px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 35px 0 0;
+  box-sizing: border-box;
+  min-width: 479px;
+  max-width: 100%;
+}
+.glassmorphism {
+  width: 100%;
+  position: relative;
+  background-color: #262222;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 114px;
+  letter-spacing: normal;
+  height: 100vh;
+}
+@media screen and (max-width: 1150px) {
+  .glassmorphismInner,
+  .greenBlueModernPhotoNature {
+    flex: 1;
+  }
+  .glassmorphism {
+    flex-wrap: wrap;
+    gap: 0 114px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .glassmorphismInner {
+    min-width: 100%;
+  }
+  .glassmorphism {
+    gap: 0 114px;
+  }
+}

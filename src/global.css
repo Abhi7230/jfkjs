@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Iceland:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+  height: 100vh !important;
+}
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+  --font-iceland: Iceland;
+
+  /* font sizes */
+  --font-size-mini: 15px;
+  --font-size-xs: 12px;
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+  --font-size-21xl: 40px;
+  --font-size-5xl: 24px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --color-gray-100: rgba(255, 255, 255, 0.5);
+  --color-white: #fff;
+  --color-powderblue: #a5d9d0;
+  --color-cadetblue: #73a69e;
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-0: 0px;
+  --gap-11xl: 30px;
+  --gap-mini: 15px;
+  --gap-3xs: 10px;
+  --gap-8xs: 5px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-11xl: 30px;
+  --padding-3xs: 10px;
+  --padding-base: 16px;
+  --padding-5xl: 24px;
+  --padding-mini: 15px;
+
+  /* Border radiuses */
+  --br-6xs: 7px;
+  --br-8xl: 27px;
+}
